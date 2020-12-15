@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  list-style: none;
+  line-height: 100px;
+  
+}
+
+li {
+  display: flex;
+  flex-grow: 1;
+  
+  
+}
+
+li a {
+  height: 0;
+  margin: auto auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  background-color: #666;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+  color: rgb(233, 18, 222)
+}
+

@@ -1,0 +1,39 @@
+div.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  position: relative;
+  flex-basis: 50vh;
+  overflow: hidden;
+  background-image: url("../images/new-york.jpg");
+  background-position: 50% 120%;
+  /* background-size: cover; */
+  background-attachment: fixed;
+  
+}
+
+main {
+  flex-grow: 1;
+  padding: 30px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+aside {
+  min-height: 100px;
+  background-color: rgb(41, 31, 44);
+}
+
+footer {
+  background-color:  rgb(41, 31, 44);
+  color: white;
+  height: 5vh;
+}
+
+
+

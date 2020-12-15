@@ -1,0 +1,54 @@
+.contact-us {
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.swing {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(0, 0, 0);
+  padding: 0 0 20px 0;
+}
+
+label {
+  display: block;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace
+}
+
+input {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px
+}
+
+#contact-form {
+  background-color: rgb(41, 31, 44);
+  color: white;
+  padding: 10px
+}
+
+.btn-primary {
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-family:'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 0px
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: black;
+}
