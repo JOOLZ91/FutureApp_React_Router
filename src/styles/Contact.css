@@ -29,13 +29,17 @@ input {
 textarea {
   padding: 10px;
   margin: 10px;
-  font-size: 20px
+  font-size: 20px;
+  width: 350px;
 }
 
-#contact-form {
+#contact-form { 
   background-color: rgb(41, 31, 44);
   color: white;
-  padding: 10px
+  padding: 10px;
+  width: 50%;
+  
+  
 }
 
 .btn-primary {
@@ -45,10 +49,38 @@ textarea {
   font-family:'Courier New', Courier, monospace;
   cursor: pointer;
   transition: 0.2s;
-  border: 0px
+  border: 0px;
+  width: 350px;
+  
+  
 }
 
 .btn-primary:hover {
   color: white;
   background-color: black;
 }
+
+div.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  width: 50%;
+  background-color: rgb(41, 31, 44);
+  color: white;
+  padding: 10px;
+  display: block;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace
+}
+.wrapper {
+  display: flex;
+}
+.phone {
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+
+
