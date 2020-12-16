@@ -4,6 +4,9 @@ import "../styles/Homepage.css";
 const HomePage = () => {
   return (
     <div>
+      <div className="head">
+        <p className="head">Future</p>
+      </div>
       <p className="main">
         Make your tax reporting easier in 2020!
         <span className="futurespan">FUTURE</span> is an all-inclusive app for

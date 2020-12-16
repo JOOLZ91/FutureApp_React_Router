@@ -15,6 +15,7 @@ header {
   background-position: 50% 120%;
   /* background-size: cover; */
   background-attachment: fixed;
+  transition: 0.3;
   
 }
 

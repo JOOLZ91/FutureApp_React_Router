@@ -16,3 +16,28 @@ p.main {
 span.futurespan {
   color: rgb(150, 76, 150);
   }
+
+  div.head {  
+    margin: 30px auto;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(192, 193, 196);
+    border: 0px rgb(32, 39, 3) solid;
+    border-radius: 50px;
+  }
+
+  p.head {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color:rgb(38, 29, 44);
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px rgb(45, 41, 53) solid;
+  }
+
+  ul.features li:nth-child(even) {
+    background-color: rgb(192, 193, 196);
+    color: white;
+    border-radius: 50px;
+  }
