@@ -36,5 +36,14 @@ footer {
   height: 5vh;
 }
 
+@media (max-width: 992px) {
+  aside {
+    min-height: 40px
+  }
+
+  header {
+    background-position: 50% 70%
+  }
+}
 
 

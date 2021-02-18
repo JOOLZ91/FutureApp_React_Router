@@ -83,4 +83,37 @@ div.App {
 }
 
 
+  @media (max-width: 992px) {
+    p {
+      font-size: 20px;
+    }
+
+    textarea {
+      width: 150px;
+    }
+
+    .btn-primary {
+      width: 150px;
+      font-size: 25px;
+    }
+
+    label { 
+      font-size: 20px;
+    }
+
+    input {
+      width: 150px;
+    }
+
+    .swing {
+      font-size: 20px;
+    }
+
+    .phone {
+      font-size: 16px;
+      padding: 10px 10px;
+    }
+  }
+
+
 

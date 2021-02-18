@@ -32,7 +32,7 @@ div p.motto {
   left: 10vh;
   top: 50px;
   font-family: 'Courier New', Courier, monospace;
-  color: black;
+  color: rgb(255, 255, 255);
   opacity: 0.7;
 }
 
@@ -47,5 +47,11 @@ div p.motto {
 
 }
 
+@media (max-width: 992px) {
+  div p.motto {
+    font-size: 20px;
+    left: 1vh; 
+  }
+}
 
 
